@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>IMDb Styled Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+        }
 
+        /* Movie Poster */
+        .moviePic {
+            display: block;
+            margin: 40px auto;
+            height: 400px;
+            width: 300px;
+            opacity: 0.9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+        }
+
+        /* Movie Description */
+        .movieDetail {
+            position: relative;
+            top: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+            background-color: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Movie Poster -->
+    <img 
+        class="moviePic" 
+        src="https://via.placeholder.com/300x400" 
+        alt="Movie Poster"
+    >
+
+    <!-- Movie Description -->
+    <p class="movieDetail">
+        This movie is an exciting journey filled with drama, action, and emotion. It tells the story of a hero who rises against all odds to achieve greatness. With stunning visuals and a gripping storyline, this film keeps the audience engaged from start to finish.
+    </p>
 
 </body>
-
 </html>
